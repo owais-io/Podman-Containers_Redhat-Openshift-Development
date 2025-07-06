@@ -1,0 +1,19 @@
+FROM registry.access.redhat.com/ubi9/ubi-minimal
+
+ENTRYPOINT echo "Shell from entrypoint:"
+
+CMD echo "Shell form CMD"
+
+#---------------------------------------------------------------
+
+#COPY greet.sh /usr/local/bin/
+
+#ENTRYPOINT ["/usr/local/bin/greet.sh"]
+
+#CMD ["Openshift Lab", "RedHat"]
+
+#---------------------------------------------------------------
+
+#ENTRYPOINT ["echo", "Entrypoint says:"]
+
+#CMD ["Default CMD Message"]
